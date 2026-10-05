@@ -42,7 +42,7 @@ Entao:
 
 # O que sao dominio e hospedagem?
 
-    Domínio é o nome ou endereço fácil de memorizar usado para acessar um site na Web. Já a hospedagem é o serviço que armazena os arquivos e dados de um site em      um servidor conectado à Internet.
+    Domínio é o nome ou endereço fácil de memorizar usado para acessar um site na Web. Já a hospedagem é o serviço que armazena os arquivos e dados de um site em um servidor conectado à Internet.
 
 # ## Bonus: aba Network:
 
