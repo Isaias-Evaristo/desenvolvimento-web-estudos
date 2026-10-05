@@ -38,7 +38,7 @@ Entao:
 
 # Qual a diferenca entre HTTP e HTTPS?
 
-    HTTP e HTTPS são protocolos usados para permitir a comunicação entre o navegador (cliente) e o servidor. A diferença é que o HTTPS possui criptografia e           oferece mais segurança, enquanto o HTTP não possui essa proteção.
+    HTTP e HTTPS são protocolos usados para permitir a comunicação entre o navegador (cliente) e o servidor. A diferença é que o HTTPS possui criptografia e oferece mais segurança, enquanto o HTTP não possui essa proteção.
 
 # O que sao dominio e hospedagem?
 
