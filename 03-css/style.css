@@ -1,0 +1,51 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+/* Parágrafos */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Imagens */
+img {
+    border-radius: 10px;
+}
+
+/* Tabelas */
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #f70202;
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #f0f0f0;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #01057f;
+    color: rgb(254, 255, 255);
+    padding: 15px;
+}
