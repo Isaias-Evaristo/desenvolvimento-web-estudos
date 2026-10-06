@@ -5,3 +5,4 @@ Repositório com os exercícios da disciplina de Desenvolvimento de Aplicações
 ## Páginas publicadas
 
 - [Página de apresentação (HTML)](https://isaias-evaristo.github.io/desenvolvimento-web-estudos/02-html/)
+- [Página de apresentação com CSS](https://isaias-evaristo.github.io/desenvolvimento-web-estudos/03-css/)
