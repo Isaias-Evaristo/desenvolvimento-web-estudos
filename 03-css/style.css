@@ -9,7 +9,13 @@ h1 {
     text-align: center;
 }
 
+/* Cabeçalho: itens em coluna, centralizados */
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
     background-color: navy;
     color: white;
     padding: 20px;
@@ -21,9 +27,38 @@ p {
     line-height: 1.6;
 }
 
-/* Imagens */
+/* Imagem com legenda centralizada */
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
 img {
     border-radius: 10px;
+}
+
+/* Lista de interesses em etiquetas */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e8f0fe;
+    color: navy;
+    padding: 8px 16px;
+    border-radius: 20px;
 }
 
 /* Tabelas */
@@ -37,28 +72,36 @@ td {
     border: 1px solid #f70202;
 }
 
-/* Cabeçalho da tabela */
 th {
     background-color: #f0f0f0;
 }
 
-/* Rodapé */
-footer {
-    text-align: center;
-    background-color: #01057f;
-    color: rgb(254, 255, 255);
-    padding: 15px;
+/* Layout geral */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
-   main {
-       max-width: 800px;
-       margin: 0 auto;
-       padding: 20px;
-   }
-   section {
+
+section {
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+}
+
+/* Rodapé centralizado */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01057f;
+    color: rgb(254, 255, 255);
+    padding: 15px;
+}
+
+footer a {
+    color: white;
 }
 
 * {
