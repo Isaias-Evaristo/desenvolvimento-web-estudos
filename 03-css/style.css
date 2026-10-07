@@ -42,6 +42,8 @@ figcaption {
 }
 
 img {
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -64,6 +66,7 @@ li {
 /* Tabelas */
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 th,
@@ -76,9 +79,12 @@ th {
     background-color: #f0f0f0;
 }
 
-/* Layout geral */
+/* Layout geral com Grid: 2 colunas */
 main {
-    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -86,8 +92,13 @@ main {
 section {
     background-color: white;
     padding: 20px;
-    margin-bottom: 20px;
     border-radius: 10px;
+    overflow-x: auto;
+}
+
+/* A tabela ocupa as duas colunas */
+section:last-child {
+    grid-column: 1 / -1;
 }
 
 /* Rodapé centralizado */
@@ -106,4 +117,21 @@ footer a {
 
 * {
     box-sizing: border-box;
+}
+
+/* Responsividade: telas de até 600px */
+@media (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+    }
 }
