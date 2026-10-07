@@ -1,6 +1,6 @@
 # Desenvolvimento-Web-Estudos
 
-Repositório com os exercícios da disciplina de Desenvolvimento de Aplicações para Internet.
+Repositório desenvolvimento de Aplicações para Internet.
 
 ## Páginas publicadas
 
