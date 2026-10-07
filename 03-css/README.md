@@ -1,6 +1,6 @@
 # CSS
 
-Página de apresentação estilizada com CSS (cores, fontes, box model, Flexbox, Grid e responsividade).
+Página de apresentação estilizada com CSS (cores, fontes, box model, Flexbox, Grid e responsividade, animações ).
 
 [Ver a página publicada](https://isaias-evaristo.github.io/desenvolvimento-web-estudos/03-css/)
 
@@ -13,6 +13,7 @@ Página de apresentação estilizada com CSS (cores, fontes, box model, Flexbox,
 - Flexbox no cabeçalho, na imagem com legenda, na lista e no rodapé
 - Grid no layout principal (duas colunas)
 - Responsividade com media query para telas pequenas
+- - Animações com `transition` e `@keyframes` 
 
 ## Flexbox: regras que usei
 
@@ -35,6 +36,14 @@ Página de apresentação estilizada com CSS (cores, fontes, box model, Flexbox,
 - `@media (max-width: 600px)`: aplica estilos só em telas de até 600px.
 - `max-width: 100%` e `height: auto` na imagem: ela não estoura a tela.
 - Troca para uma coluna no celular com `grid-template-columns: 1fr`.
+
+## Animações: regras que usei
+
+- `transition`: faz a mudança de uma propriedade acontecer de forma suave.
+- `:hover`: aplica o estilo quando o mouse está sobre o elemento.
+- `transform: scale()`: aumenta ou diminui o elemento.
+- `@keyframes`: define as etapas de uma animação (`from` e `to`).
+- `animation`: aplica o `@keyframes` ao elemento, com duração e ritmo.
 
 ## Arquivos
 
