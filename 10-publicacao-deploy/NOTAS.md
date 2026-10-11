@@ -18,4 +18,4 @@ Deploy é o processo de enviar e publicar um site ou aplicação em um servidor 
 
 ## O GitHub Pages consegue rodar o meu servidor Node? Por quê?
 
-e backend.Não. O GitHub Pages não executa servidores Node.js, pois hospeda apenas sites estáticos e não aplicações com código d
+Não. O GitHub Pages não executa servidores Node.js, pois hospeda apenas sites estáticos e não aplicações com código de backend.
