@@ -2,6 +2,8 @@
 
 Primeiros passos com banco de dados usando SQLite no Node.js.
 
+O SQLite é um banco de dados que fica dentro de um único arquivo, sem precisar instalar um servidor.
+
 ## O que foi praticado
 
 - Tabela, registro e chave (`id`)
