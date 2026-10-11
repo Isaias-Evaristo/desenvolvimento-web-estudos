@@ -4,7 +4,7 @@ Primeiros passos com um servidor feito em JavaScript, usando Node.js.
 
 ## O que foi praticado
 
-- Criei um servidor com o módulo `http` do Node.js
+- Criar um servidor com o módulo `http` do Node.js
 - Rotas: responder diferente conforme o caminho (`/`, `/sobre`)
 - Requisição e resposta
 - Código de status 404 para rota não encontrada
