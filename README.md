@@ -1,6 +1,6 @@
 # Desenvolvimento-Web-Estudos
 
-Repositório com os exercícios da disciplina de Desenvolvimento de Aplicações para Internet. Cada pasta tem um tópico, com código ou anotações e um README explicando o que foi praticado.
+Repositório com os exercícios de Desenvolvimento de Aplicações para Internet. Cada pasta tem um tópico, com código ou anotações e um README explicando o que foi praticado.
 
 ## Páginas publicadas
 
