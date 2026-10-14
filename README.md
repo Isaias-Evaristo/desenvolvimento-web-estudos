@@ -1,12 +1,21 @@
 # Desenvolvimento-Web-Estudos
 
-Repositório com os exercícios de Desenvolvimento de Aplicações para Internet. Cada pasta tem um tópico, com código ou anotações e um README explicando o que foi praticado.
+Repositório com os exercícios em Desenvolvimento de Aplicações para Internet. Cada pasta tem um tópico, com código ou anotações e um README explicando o que foi praticado.
 
 ## Páginas publicadas
 
 - [Página de apresentação (HTML)](https://isaias-evaristo.github.io/desenvolvimento-web-estudos/02-html/)
 - [Página de apresentação com CSS](https://isaias-evaristo.github.io/desenvolvimento-web-estudos/03-css/)
 - [DOM e eventos](https://isaias-evaristo.github.io/desenvolvimento-web-estudos/05-dom-e-eventos/)
+
+## Projeto final
+
+Depois dos estudos, juntei tudo em uma aplicação completa: uma lista de tarefas com login, servidor em Node.js e banco de dados.
+
+- [Ver a aplicação online](https://lista-de-tarefas-vaz6.onrender.com)
+- [Ver o código no GitHub](https://github.com/Isaias-Evaristo/lista-de-tarefas)
+
+Atenção: a aplicação roda em uma hospedagem gratuita, que desliga o servidor quando ninguém está usando. Na primeira visita, a página pode levar cerca de 1 minuto para abrir.
 
 ## Conteúdo
 
@@ -25,4 +34,4 @@ Repositório com os exercícios de Desenvolvimento de Aplicações para Internet
 
 ## Ferramentas usadas
 
-HTML, CSS, JavaScript, Node.js, SQLite, Git e GitHub.
+HTML, CSS, JavaScript, Node.js, SQLite, Git, GitHub e Render.
